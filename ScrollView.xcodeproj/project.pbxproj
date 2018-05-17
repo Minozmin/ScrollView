@@ -15,6 +15,7 @@
 		044DF051208892F2008CEFD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DF050208892F2008CEFD5 /* main.m */; };
 		044DF05B208892F2008CEFD5 /* ScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DF05A208892F2008CEFD5 /* ScrollViewTests.m */; };
 		044DF066208892F2008CEFD5 /* ScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DF065208892F2008CEFD5 /* ScrollViewUITests.m */; };
+		63D15EB620AD2F7600437222 /* HMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D15EB520AD2F7600437222 /* HMScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		044DF061208892F2008CEFD5 /* ScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044DF065208892F2008CEFD5 /* ScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewUITests.m; sourceTree = "<group>"; };
 		044DF067208892F2008CEFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D15EB420AD2F7600437222 /* HMScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMScrollView.h; sourceTree = "<group>"; };
+		63D15EB520AD2F7600437222 /* HMScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				044DF042208892F2008CEFD5 /* AppDelegate.m */,
 				044DF044208892F2008CEFD5 /* ViewController.h */,
 				044DF045208892F2008CEFD5 /* ViewController.m */,
+				63D15EB420AD2F7600437222 /* HMScrollView.h */,
+				63D15EB520AD2F7600437222 /* HMScrollView.m */,
 				044DF047208892F2008CEFD5 /* Main.storyboard */,
 				044DF04A208892F2008CEFD5 /* Assets.xcassets */,
 				044DF04C208892F2008CEFD5 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D15EB620AD2F7600437222 /* HMScrollView.m in Sources */,
 				044DF046208892F2008CEFD5 /* ViewController.m in Sources */,
 				044DF051208892F2008CEFD5 /* main.m in Sources */,
 				044DF043208892F2008CEFD5 /* AppDelegate.m in Sources */,
